@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Delete_Book"
+  author: "Norah Jones"
+  date: "4/23/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - new.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
